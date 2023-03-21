@@ -10,6 +10,7 @@ body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
+
 }
 
 .empty {
@@ -31,10 +32,12 @@ body {
 .hovered {
   background-color: #f1d982;
   border: 3px dashed #fff;
+  transform: scale(1.1, 1.1);
+  transition: .4s all ease-in;
 }
 
 @media (max-width: 800px) {
   body {
     flex-direction: column;
-  }  
+  }
 }
